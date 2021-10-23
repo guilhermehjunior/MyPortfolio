@@ -1,0 +1,33 @@
+.portfolio-header {
+  align-items: center;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+}
+
+.pages-list {
+  display: flex;
+  align-items: stretch;
+  list-style: none;
+  font-size: 1.3em;
+  height: 100%;
+}
+
+.pages-list li {
+  margin-right: 25px;
+}
+
+.list-item {
+  color: black;
+  text-decoration: none;
+
+}
+
+.list-item:hover {
+  opacity: 0.4;
+}
+
+.selected {
+  color: teal;
+  border: 2px teal solid;
+}
