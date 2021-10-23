@@ -13,3 +13,15 @@
 p {
   font-style: italic;
 }
+
+@media screen and (max-width: 600px) {
+  .card-contato {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .card-contato {
+    width: 100%;
+  }
+}
