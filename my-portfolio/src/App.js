@@ -1,11 +1,11 @@
 import React from 'react';
-import Contatos from './pages/Contatos';
+import Routes from './components/routes/Routes';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Contatos />
+      <Routes />
     </div>
   );
 }
