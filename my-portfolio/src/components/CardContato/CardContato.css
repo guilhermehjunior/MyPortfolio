@@ -1,0 +1,13 @@
+.card-contato {
+  border: 1px solid black;
+  width: 45%;
+}
+
+.bi {
+  color: blue;
+  font-size: 3em;
+}
+
+p {
+  font-style: italic;
+}

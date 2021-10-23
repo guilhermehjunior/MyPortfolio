@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './CardContato.css';
 
-function CardContato({img, nome, ref}) {
+function CardContato({img, nome, link}) {
   return (
     <div className="card-contato">
-      <img src={img} />
+      <i className={img}/>
       <h3>{nome}</h3>
-      <p>{ref}</p>
+      <p>{link}</p>
     </div>
   );
 }
@@ -15,7 +15,7 @@ function CardContato({img, nome, ref}) {
 CardContato.propTypes = {
   img: PropTypes.string.isRequired,
   nome: PropTypes.string.isRequired,
-  ref: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
 };
 
 export default CardContato;
