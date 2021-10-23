@@ -1,0 +1,16 @@
+.portfolio-header {
+  align-items: center;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+}
+
+.pages-list {
+  display: flex;
+  list-style: none;
+  font-size: 1.3em;
+}
+
+.pages-list li{
+  margin-right: 25px;
+}
