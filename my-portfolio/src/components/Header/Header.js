@@ -5,7 +5,18 @@ import './Header.css';
 
 function Header() {
   const [selected, select] = useState('');
-  const [menuOpen, setMenuOpen] = useState(false);
+
+  const menuClickHandle = () => {
+    const menu = document.querySelector('.hamburguer-menu');
+    menu.classList.toggle('open-menu');
+  }
+
+  const linkCLickHandle = (linkName) => {
+    const menu = document.querySelector('.hamburguer-menu');
+    menu.classList.toggle('open-menu');
+    select(linkName);
+  }
+
 
   const linksList = (classname) => (
     <nav>
@@ -15,7 +26,7 @@ function Header() {
             <Link
               to={ link.path }
               className={ link.cName === selected ? 'list-item selected' : 'list-item' }
-              onClick={() => select(link.cName)}
+              onClick={ () => linkCLickHandle(link.cName) }
             >
               {link.cName}
             </Link>
@@ -24,27 +35,21 @@ function Header() {
       </ul>
     </nav>
   );
-
-  const menuClickHandle = () => {
-    setMenuOpen(!menuOpen);
-  }
   
   return(
     <header className="portfolio-header">
       <i className="bi-moon" />
-      <h1>Guilherme Hermenegildo Junior</h1>
-      <i className="bi-menu-down" onClick={ menuClickHandle } /> 
+      <h1 className="my-name">Guilherme Hermenegildo Junior</h1>
+      <i className="bi-list" onClick={ menuClickHandle } /> 
       <nav className="menu-container">
         { linksList('pages-list') } 
       </nav>
-      { menuOpen &&
-      (<div className="hamburguer-menu">
+      <div className="hamburguer-menu">
         <i className="bi-x-lg" onClick={ menuClickHandle } />
         <nav>
           { linksList('hamburguer-page-list') }
         </nav>
-      </div>)
-      }
+      </div>
     </header>
   );
 }

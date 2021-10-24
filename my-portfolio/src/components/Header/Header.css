@@ -39,7 +39,7 @@
   height: 100vh;
   padding: 10px;
   position: absolute;
-  right: 0;
+  right: -100%;
   top: 0;
   transition: all 0.5s ease-in-out;
   width: 280px;
@@ -58,12 +58,21 @@
   font-size: 1.7em;
 }
 
-.bi-menu-down {
+.bi-list {
   display: none;
 }
 
-@media screen and (max-width: 900px) {
-  .bi-menu-down {
+.bi-x-lg {
+  align-self: flex-end;
+  font-size: 2rem
+}
+
+.open-menu {
+  right: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .bi-list {
     cursor: pointer;
     display: block;
     font-size: 2em;
@@ -71,5 +80,15 @@
 
   .menu-container {
     display: none;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .my-name {
+    display: none;
+  }
+
+  .hamburguer-menu {
+    width: 100vw;
   }
 }
