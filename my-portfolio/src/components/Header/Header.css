@@ -2,15 +2,13 @@
   align-items: center;
   background-color: gainsboro;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .pages-list {
   display: flex;
-  align-items: stretch;
   list-style: none;
   font-size: 1.3em;
-  height: 100%;
 }
 
 .pages-list li {
@@ -30,4 +28,48 @@
 .selected {
   color: teal;
   border: 2px teal solid;
+}
+
+.hamburguer-menu {
+  align-items: center;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  width: 280px;
+}
+
+.hamburguer-page-list {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+
+.hamburguer-page-list li {
+  margin-bottom: 20px;
+  font-size: 1.7em;
+}
+
+.bi-menu-down {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .bi-menu-down {
+    cursor: pointer;
+    display: block;
+    font-size: 2em;
+  }
+
+  .menu-container {
+    display: none;
+  }
 }
