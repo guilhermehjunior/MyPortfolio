@@ -13,27 +13,25 @@ function Header() {
 
   const linkCLickHandle = (linkName) => {
     const menu = document.querySelector('.hamburguer-menu');
-    menu.classList.toggle('open-menu');
+    menu.classList.remove('open-menu');
     select(linkName);
   }
 
 
   const linksList = (classname) => (
-    <nav>
-      <ul className={ classname }>
-        { links.map((link, index) => 
-          <li key={ index }>
-            <Link
-              to={ link.path }
-              className={ link.cName === selected ? 'list-item selected' : 'list-item' }
-              onClick={ () => linkCLickHandle(link.cName) }
-            >
-              {link.cName}
-            </Link>
-          </li> 
-        )}
-      </ul>
-    </nav>
+    <ul className={ classname }>
+      { links.map((link, index) => 
+        <li key={ index }>
+          <Link
+            to={ link.path }
+            className={ link.cName === selected ? 'list-item selected' : 'list-item' }
+            onClick={ () => linkCLickHandle(link.cName) }
+          >
+            {link.cName}
+          </Link>
+        </li> 
+      )}
+    </ul>
   );
   
   return(
