@@ -13,8 +13,15 @@
 }
 
 .bi {
-  color: blue;
   font-size: 3em;
+}
+
+.bi-linkedin {
+  color: blue;
+}
+
+.bi-whatsapp {
+  color:  #34af23;
 }
 
 p {
