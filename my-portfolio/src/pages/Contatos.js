@@ -3,7 +3,7 @@ import CardContato from '../components/CardContato/CardContato';
 
 function Contatos() {
   return(
-    <div className="contatos-container">
+    <main className="contatos-container">
       <CardContato
         img="bi bi-linkedin"
         nome="Linkedin"
@@ -24,7 +24,7 @@ function Contatos() {
         nome="Email"
         link="guihjunior7@gmail.com"
       />
-    </div>
+    </main>
   ); 
 }
 

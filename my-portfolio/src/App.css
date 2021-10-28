@@ -7,3 +7,11 @@
   flex-direction: column;
   align-items: center;
 }
+
+.abilities-container {
+  display: flex;
+}
+
+.abilities-list {
+  list-style: none;
+}
