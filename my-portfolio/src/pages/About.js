@@ -15,7 +15,7 @@ function About() {
             <p>My greatest goal is to do something that improves people's lives and I belive that in this new direction I am taking, several opportunities will arise.</p>
             <p>My <em>hobbies</em> are: playing Vídeo Games and board games, reading, exercising, watching movies and cooking. I also enjoy watching videos on youtube about: games, programming languages and culinary.</p>
             <p>Something I am trying to avoid: procrastination, I've been avoiding leaving everything for the las few days, so I can have more time do more things and with more quality.</p>
-            <img src="https://media-exp1.licdn.com/dms/image/D4D35AQHa-nCIaktp6w/profile-framedphoto-shrink_200_200/0/1631735689013?e=1635523200&v=beta&t=3Q-Z7BWKUPazM4oKXiM7wxXvXVQKhG_ehgztocQhpO8" alt="foto Guilherme H Jr"/>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Chocobo.png/220px-Chocobo.png" alt="foto Guilherme H Jr"/>
           </>
         :
           <>
@@ -26,7 +26,7 @@ function About() {
             <p>Meu maior objetivo é realizar algo que melhore a vida das pessoas e acredito que nesse novo rumo que estou tomando surgirão diversas oportunidades.</p>
             <p>Como <em>hobbies</em>, eu gosto de jogar(Vídeo Games, jogos de tabuleiro), ler, praticar atividades físicas, assistir filmes e cozinhar. Também gosto de assistir vídeos no youtube sobre: jogos, linguagens de programação e culinária.</p>
             <p>Um ponto que tenho trabalhado para melhorar é: a procrastinação, tenho evitado deixar tudo para a última hora, para assim ter mais tempo para desenvolver o necessário e com uma qualidade maior.</p>
-            <img src="https://media-exp1.licdn.com/dms/image/D4D35AQHa-nCIaktp6w/profile-framedphoto-shrink_200_200/0/1631735689013?e=1635523200&v=beta&t=3Q-Z7BWKUPazM4oKXiM7wxXvXVQKhG_ehgztocQhpO8" alt="foto Guilherme H Jr"/>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Chocobo.png/220px-Chocobo.png" alt="foto Guilherme H Jr"/>
           </>
       }
     </main>
