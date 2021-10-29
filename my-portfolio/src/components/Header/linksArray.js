@@ -5,7 +5,7 @@
   },
   {
     path: "/curriculo",
-    cName: "Curriculo",
+    cName: "Currículo",
   },
   {
     path: "/habilidades",
