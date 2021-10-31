@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+p {
+  font-style: normal;
+}
+
 .contatos-container {
   display: flex;
   flex-direction: column;
@@ -17,3 +21,4 @@
 .abilities-list {
   list-style: none;
 }
+
