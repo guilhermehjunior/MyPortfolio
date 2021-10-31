@@ -12,6 +12,6 @@ function AboutMePT() {
       <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Chocobo.png/220px-Chocobo.png" alt="foto Guilherme H Jr"/>
     </>
   );
-};
+}
 
 export default AboutMePT;
