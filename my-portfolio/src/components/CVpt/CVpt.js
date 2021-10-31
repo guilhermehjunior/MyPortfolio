@@ -22,12 +22,10 @@ function CVpt() {
     </article>
     <article>
       <h3>Background Profissional</h3>
-      <h4>Abril, 2015 – Fevereiro, 2016 - Fasttel Engenharia LTDA.
-      Estágio de Engenharia Elétrica.</h4>
+      <h4>Abril, 2015 – Fevereiro, 2016 - Fasttel Engenharia LTDA - Estágio de Engenharia Elétrica.</h4>
       <h5>Atividades:</h5>
       <p>Projetos de subestações nas áreas de supervisão, comando, proteção, arranjos eletromecânicos, dimensionamento de cabos, barramentos, estudos de curto circuito, detalhamento de painéis elétricos, detalhes de montagem de equipamentos de manobra e transformação, diagramas trifilares/unifilares. Desenvolvimento de software para controle de documentos em Visual Basic.</p>
-      <h4>Novembro, 2012 – Dezembro, 2013 - Furukawa Industrial S.A.
-Estágio de Engenharia Elétrica.</h4>
+      <h4>Novembro, 2012 – Dezembro, 2013 - Furukawa Industrial S.A - Estágio de Engenharia Elétrica.</h4>
       <h5>Atividades:</h5>
       <p>Suporte técnico para vendas na América Latina, Cuba, Espanha e Portugal. Análise de especificações técnicas de cabeamento estruturado; Montagem de amostras de soluções para Data Centers. Análise de editais. Desenvolvimento de softwares para auxiliar integradores em Visual Basic. Controle sobre atualizações das normativas referentes à cabeamento metálico.</p>
       <h4>Outubro, 2010 - Julho, 2013 - Grupo PET (Programa de Educação Tutorial).</h4>
