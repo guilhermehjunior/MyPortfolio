@@ -1,3 +1,12 @@
 .card-projeto {
+  border: 1px solid black;
   display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 60%;
+}
+
+.card-projeto img {
+  height: 200px;
+  width: 200px;
 }
