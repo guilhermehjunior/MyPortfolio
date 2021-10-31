@@ -1,4 +1,5 @@
 import React from 'react';
+import './CardProjeto.css';
 
 function CardProjeto({ projeto }) {
   const { img, title, description, link, github } = projeto;
@@ -11,8 +12,8 @@ function CardProjeto({ projeto }) {
       <div>
         <h3>{ title }</h3>
         <p>{ description }</p>
-        <a href={ link } target="_blank">Projeto!</a>
-        <a href={ github } target="_blank">Github!</a>
+        <p><a href={ link } target="_blank" rel="noreferrer">Projeto!</a></p>
+        <p><a href={ github } target="_blank" rel="noreferrer">Github!</a></p>
       </div>
     </div>
   );
